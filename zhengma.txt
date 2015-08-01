@@ -21,12 +21,12 @@ BEGIN_DEFINITION
 
 ### An unique id to distinguish this table among others.
 ### Use uuidgen to generate this kind of id.
-UUID = 67922aa3-416f-9868-2162-118fcef1c29b
+UUID = 42e70ac9-2eaa-4878-8b22-5cf772093c22
 
 ### A unique number indicates the version of this file.
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
-SERIAL_NUMBER = 20090218
+SERIAL_NUMBER = 20150801
 
 ### ICON = @SCIM_ICONDIR@/zhengma.png
 ICON = zhengma.svg
@@ -45,7 +45,8 @@ NAME.zh_TW = 鄭碼
 ### Supported languages of this table
 LANGUAGES = zh_CN,zh_HK,zh_TW
 
-AUTHOR = Yu Yuwei <acevery@gmail.com> 
+### The author of this table
+AUTHOR = Heiher <r@hev.cc>
 
 ### License
 LICENSE = GPL-3
@@ -56,7 +57,11 @@ STATUS_PROMPT = CN
 ### Valid input chars.
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyz
 
+### The max number of input keys for every phrase or character.
 MAX_KEY_LENGTH = 5
+
+### Use auto_commit mode as default
+AUTO_COMMIT = TRUE
 
 ### Keyboard Layout
 LAYOUT = us
@@ -72,7 +77,9 @@ USER_CAN_DEFINE_PHRASE = TRUE
 ### Whether support PinYin Mode, default is true
 PINYIN_MODE = TRUE
 
-DYNAMIC_ADJUST = TRUE 
+### If true then the phrases' frequencies will be adjusted dynamically
+### according your using frequency.
+DYNAMIC_ADJUST = FALSE
 
 ### rules for constructing user defined phrase
 RULES = ce2:p11+p12+p21+p22;ce3:p11+p21+p22+p31+p32;ce4:p11+p21+p31+p41+p42;ca5:p11+p21+p31+p41+p51
