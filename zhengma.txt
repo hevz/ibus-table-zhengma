@@ -26,7 +26,7 @@ UUID = 42e70ac9-2eaa-4878-8b22-5cf772093c22
 ### A unique number indicates the version of this file.
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
-SERIAL_NUMBER = 20150801
+SERIAL_NUMBER = 20151021
 
 ### ICON = @SCIM_ICONDIR@/zhengma.png
 ICON = zhengma.svg
@@ -83,6 +83,9 @@ DYNAMIC_ADJUST = FALSE
 
 ### rules for constructing user defined phrase
 RULES = ce2:p11+p12+p21+p22;ce3:p11+p21+p22+p31;ca4:p11+p21+p31+p41
+
+### Show 3 candidates
+SELECT_KEYS = 1,2,3
 
 END_DEFINITION
 
