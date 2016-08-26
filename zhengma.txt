@@ -24667,6 +24667,7 @@ dmdp	撒手锏	0
 dmds	插科打诨	2
 dmds	换手率	1
 dmds	拖拉	0
+dmdy	挺	2
 dmdy	才把	1
 dmdy	拖把	0
 dmdz	报告指出	0
